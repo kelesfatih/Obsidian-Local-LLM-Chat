@@ -1,0 +1,9 @@
+{
+  "id": "local-llm-chat",
+  "name": "Local LLM Chat",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Side panel chat with a local Ollama model.",
+  "author": "You",
+  "isDesktopOnly": true
+}
