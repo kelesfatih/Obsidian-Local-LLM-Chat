@@ -1,24 +1,30 @@
-# Using GitHub Codespaces with Obsidian Local LLM Chat
+# Project Purpose
+This project aims to provide a local LLM chat interface for Obsidian, enhancing productivity and offering seamless interaction with language models.
 
-## What is GitHub Codespaces?
-GitHub Codespaces is a cloud-based development environment that allows you to code directly within your GitHub repository. It provides a full-featured, cloud-hosted development environment available instantly, easing collaboration and reducing setup time.
+# Features
+- Local deployment of language models
+- Quick access to chat interface within Obsidian
+- Customization options for user preferences
 
-## How to Set Up GitHub Codespaces
-1. **Access Your Repository**: Go to the repository [kelesfatih/Obsidian-Local-LLM-Chat](https://github.com/kelesfatih/Obsidian-Local-LLM-Chat).
-2. **Start a Codespace**:
-   - Click the green `Code` button on the repository page.
-   - Select `Open with Codespaces` from the dropdown menu.
-   - Click on `New codespace` to create a new environment.
-3. **Environment Configuration**: Once the Codespace is created, it will automatically set up the environment by installing necessary extensions and configuring settings defined in the repository.
+# Installation
+1. Clone the repository: `git clone https://github.com/kelesfatih/Obsidian-Local-LLM-Chat`
+2. Navigate to the project directory: `cd Obsidian-Local-LLM-Chat`
+3. Install dependencies: `npm install`
+4. Start the application: `npm start`
 
-## Developing in GitHub Codespaces
-- **Accessing the Terminal**: Codespaces provides a terminal access to run commands, manage dependencies, and execute scripts just like you would on your local machine.
-- **Code Editing**: Utilize the integrated editor for file modifications. You can also add extensions from the marketplace to enhance your development experience.
-- **Previewing Changes**: Codespaces allows you to preview changes instantly through a browser window, which facilitates testing web applications directly within the environment.
+# Usage
+- Open the Obsidian application.
+- Access the local LLM chat through the designated command palette command or hotkey.
+- Engage with the model by typing your queries.
 
-## Benefits of Using Codespaces
-- No installation required on your local machine.
-- Quick access to a pre-configured environment.
-- Easy collaboration with team members without the need for setup on their local development environments.
+# Contributing Guidelines
+1. Fork the repository.
+2. Create a feature branch: `git checkout -b feature/MyFeature`
+3. Make your changes and commit them.
+4. Push your branch to your forked repository: `git push origin feature/MyFeature`
+5. Submit a pull request explaining your changes.
 
-For more information, check out the [GitHub Codespaces documentation](https://docs.github.com/en/codespaces).
+# GitHub Codespaces Setup
+1. Click on the `Code` button in the repository page.
+2. Select `Open in Codespaces`.
+3. Wait for the environment to initialize, then follow the installation steps provided above.
